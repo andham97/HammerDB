@@ -21,11 +21,11 @@ int main() {
     table_add_column(table, "Deleted", BOOL, 1, NONE);
     table_add_column(table, "Employee Number", NUMBER, 100, INCREMENTAL);
 
-    table_insert_data(table, "Name,Employee Number", "Andreas", 200);
-    table_insert_data(table, "Name", "Odin");
-    table_insert_data(table, "Name", "Ole Kristian");
-    table_insert_data(table, "Name", "Emilie");
-    table_insert_data_structured(table, 2, 1, "Tinholt");
+    table_insert_data(table, "Name,Employee Number", "Alice", 200);
+    table_insert_data(table, "Name", "Bob");
+    table_insert_data(table, "Name", "Claus");
+    table_insert_data(table, "Name", "Simon");
+    table_insert_data_structured(table, 2, 1, "Brook");
 
     table_print(table);
 
